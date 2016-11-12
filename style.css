@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  background-color: black
+}
+
+script {
+  align-items: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+p {
+  color: #666666;
+  text-align: center;
+
+}
+ul {
+  color: #666666
+  text-align: center;
+}
+
+.Links {
+  text-align: center;
+  color: red;
+}
+
+#linkid a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#linkid a:hover, a:active {
+    background-color: red;
+}
+
+
+img {
+  max-width: 100%
+}
+
+h1 {
+  border-bottom: solid 5px black;
+
+}
+
+h2 {
+  color: #800080;
+  text-align: center;
+  border-bottom: solid 3px cyan;
+}
+.extras{
+  text-align: center;
+  border-bottom: solid 2px cyan;
+}
+iframe, .weekly-video {
+  align-content: center;
+  align-items: center;
+}
+
+.twitterfeed, .twitter-timeline {
+  align-content: center;
+  align-items: center;
+}
+x
+.twitter-timeline {
+  max-width: 200px;
+  max-height: 450px;
+  overflow: scroll;
+}
+
+.poll {
+  color: #03ACD1;
+  text-align: center;
+
+}
+
+.poll_body {
+  align-content: center;
+}
+footer {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    background-color: #800080;
+    font-size: 1.25mx;
+    color: white;
+  }
+  p {
+    color: black;
+    font-size: 1.25mx;
+  }
+  h2 {
+    color: white;
+    text-align: center
+  }
+
+}
